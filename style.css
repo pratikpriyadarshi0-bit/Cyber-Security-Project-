@@ -1,0 +1,147 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    background: #1e3a8a;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: #1e3a8a;
+    margin-top: 25px;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Form */
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 12px;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Information Cards */
+.card {
+    background: #f8fafc;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background: #2563eb;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+/* Status Colors */
+.present {
+    color: green;
+    font-weight: bold;
+}
+
+.missing {
+    color: red;
+    font-weight: bold;
+}
+
+/* Score Box */
+.score-box {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2563eb;
+    margin: 20px 0;
+}
+
+/* Rating */
+.rating-secure {
+    color: green;
+    font-weight: bold;
+}
+
+.rating-moderate {
+    color: orange;
+    font-weight: bold;
+}
+
+.rating-improve {
+    color: red;
+    font-weight: bold;
+}
+
+/* Recommendations */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    color: #666;
+}

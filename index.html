@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Security Checker</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>🔒 Website Security Checker</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Website Security Assessment Tool</h2>
+
+            <p>
+                Enter a website URL or domain name to perform a basic security assessment.
+                The tool will analyze:
+            </p>
+
+            <ul>
+                <li>HTTPS Availability</li>
+                <li>SSL Certificate Validity</li>
+                <li>Security Headers</li>
+                <li>Security Score</li>
+                <li>Security Recommendations</li>
+            </ul>
+        </div>
+
+        <form action="/scan" method="POST">
+
+            <input
+                type="text"
+                name="url"
+                placeholder="Enter Website URL (e.g., google.com)"
+                required>
+
+            <button type="submit">
+                Scan Website
+            </button>
+
+        </form>
+
+    </div>
+
+    <div class="footer">
+        Website Security Checker | Cyber Security Mini Project
+    </div>
+
+</body>
+
+</html>
